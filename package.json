@@ -1,0 +1,15 @@
+{
+  "name": "oracle-driver-comparison",
+  "version": "1.0.0",
+  "description": "Differences between https://github.com/oracle/node-oracledb and https://github.com/joeferner/node-oracle",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "oracle": "^0.3.7",
+    "oracledb": "git+http://github.com/oracle/node-oracledb"
+  }
+}
